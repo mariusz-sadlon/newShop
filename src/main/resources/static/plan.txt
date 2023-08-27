@@ -1,0 +1,4 @@
+Określ cel strony: sklep internetowy
+Wybór platformy: własna
+Domena i hosting: darmowa domena i hosting
+Projektowanie strony:

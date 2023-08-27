@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moja Podstawowa Strona</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script>
+        function zmienZdjecie() {
+            var obrazek = document.getElementById("obrazek");
+            if (obrazek.src.endsWith("obrazek1.jpg")) {
+                obrazek.src = "data photo/_4PK8470_m.jpg";
+            } else {
+                obrazek.src = "data photo/_4PK8562_m.jpg";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<header>
+
+    <h1>Witaj na Mojej Stronie!</h1>
+
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="onas.html">O Nas</a></li>
+        <li><a href="uslugi.html">Usługi</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>index</h2>
+
+    <button id="myButton">Kliknij mnie</button>
+
+    <img src="data photo/_4PK8470_m.jpg" alt="Kraków widok"/> 
+    <img id="obrazek" src="data photo/_4PK8470_m.jpg" alt="Kraków widok" onclick="zmienZdjecie()">
+
+</main>
+
+<footer>
+    <p>&copy; 2023 Moja Strona. Wszelkie prawa zastrzeżone.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

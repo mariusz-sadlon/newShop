@@ -1,0 +1,62 @@
+/* Resetowanie domyślnych styli */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stylowanie tła strony */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6c12a;
+    color: #333;
+}
+
+/* Stylowanie nagłówka */
+header {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Stylowanie nawigacji */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Stylowanie głównej treści */
+main {
+    padding: 20px;
+}
+
+/* Stylowanie stopki */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Stylowanie linków */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
