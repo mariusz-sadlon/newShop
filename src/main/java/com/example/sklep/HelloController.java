@@ -9,7 +9,7 @@ public class HelloController {
 
     @GetMapping("/")
     public void checkAll() {
-        System.out.print("good connection");
+        System.out.print("good conneaaction");
     }
 
 }
